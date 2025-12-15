@@ -1,0 +1,132 @@
+main{
+    background-color: #FF0000;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.bienvenida {
+    display: flex;
+
+    margin: 40px;
+    padding: 20px 25px;
+    background-color: #ffffff;
+    border-left: 7px solid #0000ff;
+    border-radius: 10px;
+    font-size: 22px;
+    line-height: 1.7;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+    box-sizing: border-box;
+    }
+@media (max-width: 600px) {
+    .bienvenida {
+        font-size: 18px;
+        padding: 15px 18px;
+        margin: 25px 10px;
+    }
+}
+
+.carrusel {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(0%) brightness(0%) contrast(100%);
+}
+
+.carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.recetario {
+    margin-top: 25px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.subtitulo{
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    color: #333;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #0000ff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.recetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.card {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+    margin-top: 20px;
+}
+.ModoOscuro{
+    color: #353535;
+    background-color: #464646;
+}
+.ModoOscuro .card{
+    background-color: #313131;
+    color: #ffffff;
+    box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.5),
+    0 0 12px rgba(247, 214, 0, 0.18);
+}
+.ModoOscuro main{
+    background-color: #464646;
+}
+.ModoOscuro .bienvenida, .ModoOscuro .carrusel, .ModoOscuro .recetario{
+    background-color: #272727;
+    color: #ffffff;
+    box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.5),
+    0 0 12px rgba(247, 214, 0, 0.18);
+}
+.ModoOscuro h2{
+    color: #f7d600;
+}
+.ModoOscuro .carousel-control-prev-icon, .ModoOscuro .carousel-control-next-icon{
+    filter: invert(100%) brightness(0%) contrast(0%);
+}
+.btn, .btn-primary {
+    background-color: #f7d600;
+    color: #000000;
+    border-color: #f7d600;
+}

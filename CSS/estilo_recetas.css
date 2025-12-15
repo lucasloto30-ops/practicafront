@@ -1,0 +1,125 @@
+main{
+    background-color: #d3d3d3;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.recetas {
+    background-color: #f8f8f8;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.boton {
+    background-color: #f7d600;
+    border-radius: 8px;
+    padding: 10px 15px;
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 250px;
+    box-shadow: 0 4px 10px black;
+}
+.boton a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    color: #000;
+}
+
+.bloque, .mapa {
+    background-color: #ffff;
+    border: 0px;
+    padding: 20px;
+    flex: 1;
+    width: 35%;
+    border-radius: 10px;
+    flex: 1 1 450px;
+    max-width: 550px;
+    box-shadow: 0 4px 10px black;
+}
+.maps {
+    width: 80%;
+    height: 60%;
+}
+.bloque h2, .bloque h3, .mapa h2{
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding-left: 12px;
+    border-left: 4px solid #f7d600;
+}
+.bloque h2{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.bloque h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.bloque p, .bloque li {
+    font-size: 16px;
+    line-height: 1.65;
+}
+.bloque ul, .bloque ol{
+    padding-left: 25px;
+}
+.bloque img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.bloque iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+}
+.ModoOscuro{
+    background-color: #464646;
+    color: #ffffffff;
+}
+.ModoOscuro main{
+    background-color: #464646;
+}
+.ModoOscuro .bloque, .ModoOscuro .mapa{
+    background-color: #272727;
+    color: #ffff;
+    box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.5),
+    0 0 12px rgba(247, 214, 0, 0.18);
+}
+.ModoOscuro h2, .ModoOscuro h3{
+    color: #ffffffff;
+}
+.ModoOscuro .recetas{
+    background-color: #272727;
+    box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.5),
+    0 0 12px rgba(247, 214, 0, 0.18);
+}
+.ModoOscuro .boton, .ModoOscuro .boton a{
+    background-color: #0B0B0B;
+
+    color: #f7d600;
+}
