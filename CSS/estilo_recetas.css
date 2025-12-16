@@ -110,8 +110,11 @@ main{
     0 0 12px rgba(247, 214, 0, 0.18);
 }
 .ModoOscuro h2, .ModoOscuro h3{
-    color: #ffffffff;
+    color: #ffffff;
 }
+.ModoOscuro h1{
+    color: #ffffff;
+  }
 .ModoOscuro .recetas{
     background-color: #272727;
     box-shadow:
@@ -119,7 +122,7 @@ main{
     0 0 12px rgba(247, 214, 0, 0.18);
 }
 .ModoOscuro .boton, .ModoOscuro .boton a{
-    background-color: #0B0B0B;
-
+    background-color: #ffffff;
     color: #f7d600;
+    
 }

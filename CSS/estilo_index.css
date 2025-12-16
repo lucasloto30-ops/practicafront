@@ -120,13 +120,16 @@ main{
     0 0 12px rgba(247, 214, 0, 0.18);
 }
 .ModoOscuro h2{
-    color: #f7d600;
+    color: #ffffff;
+}
+.ModoOscuro h1{
+    color: #ffffff;
 }
 .ModoOscuro .carousel-control-prev-icon, .ModoOscuro .carousel-control-next-icon{
     filter: invert(100%) brightness(0%) contrast(0%);
 }
 .btn, .btn-primary {
-    background-color: #f7d600;
+    background-color: #ffffff;
     color: #000000;
-    border-color: #f7d600;
+    border-color: #ff0000;
 }
