@@ -158,11 +158,11 @@ footer{
     background-color: #0B0B0B;
 }
 .ModoOscuro body{
-    background-color: #464646;
+    background-color: #ffffff;
 }
 .BTNinfo {
     margin-top: 10px;
-    background-color: #333;
+    background-color: #000000;
     color: white;
     padding: 10px 18px;
     border: none;
@@ -170,7 +170,7 @@ footer{
     font-size: 16px;
 }
 .ModoOscuro .BTNinfo{
-    background-color: #f7d600;
+    background-color: #ff0000;
     color: #0B0B0B;
 }
 html {

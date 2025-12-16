@@ -65,7 +65,7 @@ main{
     font-family: Arial, sans-serif;
     color: #333;
     padding-left: 12px;
-    border-left: 4px solid #f7d600;
+    border-left: 4px solid #0000ff;
 }
 .bloque h2{
     font-size: 26px;
@@ -76,13 +76,7 @@ main{
     margin-top: 20px;
     margin-bottom: 8px;
 }
-.bloque p, .bloque li {
-    font-size: 16px;
-    line-height: 1.65;
-}
-.bloque ul, .bloque ol{
-    padding-left: 25px;
-}
+
 .bloque img {
     width: 100%;
     height: auto;
